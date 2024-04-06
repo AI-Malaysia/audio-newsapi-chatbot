@@ -6,8 +6,8 @@ from langchain.chains import APIChain
 import os
 import base64
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ['NEWS_API_KEY'] = "7aa762f78ab84b0dbcc3e9ec3a3f0a01"
+os.environ["OPENAI_API_KEY"] = "sk-"
+os.environ['NEWS_API_KEY'] = ""
 
 docs = """API documentation:
 Endpoint: https://newsapi.org
