@@ -22,14 +22,20 @@ git clone https://github.com/ai-malaysia/audio-newsapi-chatbot.git
 2. Navigate to the project directory:
 
 ```bash
-cd langchain-api-app
+cd audio-newsapi-chatbot
 ```
 
 3. Install the dependencies using Poetry:
-poetry install
 
-4. Usage
+```bash
+poetry install
+```
+
+5. Usage
+
+```bash
 stream run news_search_audio.py
+```
 
 Make sure to enter your own OpenAI_API and New_sAPI keys in news_search_audio
 os.environ["OPENAI_API_KEY"] = "sk-"
