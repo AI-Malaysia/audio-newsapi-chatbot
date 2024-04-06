@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "audio-newsapi-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["AI Malaysia <kimusu2013@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.33.0"
+streamlit-mic-recorder = "^0.0.8"
+openai = "^1.16.2"
+langchain = "^0.1.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
