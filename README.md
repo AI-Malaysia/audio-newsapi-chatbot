@@ -17,13 +17,13 @@ Before running this app, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/ai-malaysia/audio-newsapi-chatbot.git
-'''
+```
 
 2. Navigate to the project directory:
 
 ```bash
 cd langchain-api-app
-'''
+```
 
 3. Install the dependencies using Poetry:
 poetry install
