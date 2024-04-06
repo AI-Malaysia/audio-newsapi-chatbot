@@ -34,7 +34,7 @@ poetry install
 5. Usage
 
 ```bash
-stream run news_search_audio.py
+streamlit run news_search_audio.py
 ```
 
 Make sure to enter your own OpenAI_API and New_sAPI keys in news_search_audio
