@@ -43,3 +43,4 @@ os.environ["OPENAI_API_KEY"] = "sk-"
 
 os.environ['NEWS_API_KEY'] = "="
 
+*Main reference: https://github.com/marcusschiesser/streamlit-examples
