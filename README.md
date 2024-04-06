@@ -2,7 +2,7 @@
 
 ## Simple Streamlit app demonstrating LLM interaction with an API
 
-This is a simple application built using OpenAI Apis, streamlit and LangChain,  the app utilizes the `APIChain` component from LangChain to make external API calls and retrieve data from third-party services.
+This is a simple application built using OpenAI APIs (whisper-1, tts-1, GPT-3.5-turbo-instruct), streamlit and LangChain,  the app utilizes the `APIChain` component from LangChain to make external API calls and retrieve data from News api https://newsapi.org/
 
 ## Prerequisites
 
@@ -38,6 +38,8 @@ stream run news_search_audio.py
 ```
 
 Make sure to enter your own OpenAI_API and New_sAPI keys in news_search_audio
+
 os.environ["OPENAI_API_KEY"] = "sk-"
+
 os.environ['NEWS_API_KEY'] = "="
 
